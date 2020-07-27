@@ -49,6 +49,7 @@
                     <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder">
                         <property name="namespace" value="development"/>
                         <property name="serviceName" value="ignite"/>
+                        <property name="master" value="https://bi-k8s.lottoland.zone:8383"/>
                     </bean>
                 </property>
             </bean>
